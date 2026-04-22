@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deadwood Telegraph & Post</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rye&family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="wood-background">
+        <header>
+            <h1>DEADWOOD POST OFFICE</h1>
+            <p class="tagline">Reliable Delivery Across the Frontier</p>
+        </header>
+
+        <main class="parchment">
+            <section class="stamp-section">
+                <div class="stamp">Official Mail</div>
+            </section>
+
+            <section class="content">
+                <h2>Dispatch a Message</h2>
+                <form id="mail-form">
+                    <label for="sender">Sender's Name:</label>
+                    <input type="text" id="sender" placeholder="e.g. Wyatt Earp">
+
+                    <label for="recipient">Recipient (Town/County):</label>
+                    <input type="text" id="recipient" placeholder="e.g. Tombstone, AZ">
+
+                    <label for="message">Your Telegram:</label>
+                    <textarea id="message" rows="5" placeholder="Write your message here..."></textarea>
+
+                    <button type="button" class="west-btn">Send the Rider</button>
+                </form>
+            </section>
+
+            <hr class="rugged-line">
+
+            <section class="notices">
+                <h3>WANTED: RELIABLE RIDERS</h3>
+                <p>Must be able to ride 50 miles a day. Prefer orphans. Danger included.</p>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 1885 Frontier Postal Services</p>
+        </footer>
+    </div>
+
+</body>
+</html>
